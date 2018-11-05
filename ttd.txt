@@ -1,0 +1,4 @@
+a) below the form checkbox: there is no error message if you don't check the "agree to receive communication" below the form... (copy from tradeoro http://lp.tradeoro.com/bitcoin/ar/index.html)
+d) the payment forms logos: I would delete PCI, McAfee, VPay, Qiwi Wallet, Cash...  and introduce: Neteller, Skrill, Comodo @Meital what do you think?
+
+tradeoro crm

@@ -1,0 +1,245 @@
+/*--------------------------------------------------------------
+>>>>>> CSSeco Styles(usualy overwrite bootsrap styles :))
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+	#  Imports
+	##  Fonts
+    ##  Bootstrap
+	#  CSSeco Variables
+	#  Overides(bs)
+	#  Helper Classes
+	#  CSSeco Styles
+	## Body
+	## Header
+	## Footer
+	## Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#  Imports 
+##  Fonts
+--------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,700");
+@import url("../fonts/fonts.css");
+/*--------------------------------------------------------------
+#  Imports
+##  Bootstrap
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#  CSSeco Variables
+--------------------------------------------------------------*/
+/* BreakPoint */
+/*--------------------------------------------------------------
+#  Overides(bs)
+--------------------------------------------------------------*/
+/* line 38, scss/thanks.scss */
+body {
+  direction: rtl;
+  font-family: 'Rubik', sans-serif;
+}
+
+/*--------------------------------------------------------------
+#  Helper Classes
+--------------------------------------------------------------*/
+/* line 46, scss/thanks.scss */
+.posrel {
+  position: relative !important;
+}
+
+/* line 50, scss/thanks.scss */
+.elem-hidden {
+  display: none !important;
+}
+
+/*--------------------------------------------------------------
+#  CSSeco Styles
+## Body
+--------------------------------------------------------------*/
+/* line 58, scss/thanks.scss */
+div#site-wrapper {
+  /*--------------------------------------------------------------
+  #  CSSeco Styles
+  ## Header
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  #  CSSeco Styles
+  ## Footer
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  #  CSSeco Styles
+  ## Content
+  --------------------------------------------------------------*/
+}
+/* line 64, scss/thanks.scss */
+div#site-wrapper header#header {
+  border-bottom: 4px solid #8e8e8e;
+}
+/* line 72, scss/thanks.scss */
+div#site-wrapper footer#footer {
+  background-color: #464646;
+  -webkit-box-shadow: 0 -7px 0 #efc11b;
+          box-shadow: 0 -7px 0 #efc11b;
+  color: #FFF;
+  font-family: 'DroidArabicKufi';
+}
+/* line 77, scss/thanks.scss */
+div#site-wrapper footer#footer a {
+  color: #FFFFFF;
+}
+/* line 80, scss/thanks.scss */
+div#site-wrapper footer#footer .topF {
+  padding: 26px 0;
+}
+/* line 82, scss/thanks.scss */
+div#site-wrapper footer#footer .topF h6 {
+  font-size: 14px;
+}
+/* line 85, scss/thanks.scss */
+div#site-wrapper footer#footer .topF p {
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 0;
+  text-align: justify;
+}
+/* line 92, scss/thanks.scss */
+div#site-wrapper footer#footer .middleF {
+  font-size: 14px;
+  padding-bottom: 26px;
+}
+/* line 96, scss/thanks.scss */
+div#site-wrapper footer#footer .middleF .divider::after {
+  background: #7f7f7f;
+  width: 1px;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  right: inherit;
+  min-height: 80px;
+}
+/* line 110, scss/thanks.scss */
+div#site-wrapper footer#footer .bottomF {
+  background-color: #a4a4a4;
+  color: #5a5a5a;
+  padding: 11px 0;
+}
+/* line 114, scss/thanks.scss */
+div#site-wrapper footer#footer .bottomF ul {
+  list-style: none;
+  margin: 0;
+  padding-left: initial;
+  padding-right: 0;
+  text-align: left;
+}
+/* line 120, scss/thanks.scss */
+div#site-wrapper footer#footer .bottomF ul li {
+  border-left: 1px solid #464646;
+  border-right: none;
+  display: inline-block;
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 127, scss/thanks.scss */
+div#site-wrapper footer#footer .bottomF ul li:last-child {
+  border: medium none;
+}
+/* line 130, scss/thanks.scss */
+div#site-wrapper footer#footer .bottomF ul li a {
+  color: #464646;
+}
+/* line 142, scss/thanks.scss */
+div#site-wrapper section#section1.congrats {
+  background-image: url(../imgs/thankYou/join_ty.jpg);
+  background-position: 50% bottom;
+  background-repeat: no-repeat;
+  border-bottom: 4px solid #8e8e8e;
+  font-family: 'DroidArabicKufi';
+  min-height: 418px;
+}
+/* line 149, scss/thanks.scss */
+div#site-wrapper section#section1.congrats h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 35px 0 0 0;
+}
+/* line 154, scss/thanks.scss */
+div#site-wrapper section#section1.congrats h2 {
+  color: #efc11b;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0 0 0;
+}
+/* line 160, scss/thanks.scss */
+div#site-wrapper section#section1.congrats .account {
+  margin: 100px 0 0 auto;
+  max-width: 450px;
+  text-align: center;
+  width: 100%;
+}
+/* line 165, scss/thanks.scss */
+div#site-wrapper section#section1.congrats .account p {
+  font-size: 16px;
+  margin: 0;
+}
+/* line 168, scss/thanks.scss */
+div#site-wrapper section#section1.congrats .account p + p {
+  font-weight: bold;
+}
+/* line 172, scss/thanks.scss */
+div#site-wrapper section#section1.congrats .account a {
+  color: #fff;
+  font-size: 18px;
+  height: 50px;
+  margin: 10px auto;
+  padding-top: 12px;
+  width: 260px;
+}
+/* line 182, scss/thanks.scss */
+div#site-wrapper section#section2.youGet {
+  font-family: 'DroidArabicKufi';
+  margin-top: 80px;
+}
+/* line 185, scss/thanks.scss */
+div#site-wrapper section#section2.youGet h3 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 190, scss/thanks.scss */
+div#site-wrapper section#section2.youGet ul {
+  list-style: none;
+  margin: 20px auto 10px;
+  max-width: 630px;
+  padding: 14px 5px;
+  text-align: center;
+  vertical-align: top;
+}
+@media screen and (min-width: 1200px) {
+  /* line 190, scss/thanks.scss */
+  div#site-wrapper section#section2.youGet ul {
+    max-width: none;
+  }
+}
+/* line 200, scss/thanks.scss */
+div#site-wrapper section#section2.youGet ul li {
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 25px;
+  max-width: 200px;
+  padding: 0 5px;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+/* line 209, scss/thanks.scss */
+div#site-wrapper section#section2.youGet ul li img {
+  margin-bottom: 15px;
+}
+/* line 212, scss/thanks.scss */
+div#site-wrapper section#section2.youGet ul li p {
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=thanks.css.map */

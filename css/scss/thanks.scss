@@ -1,0 +1,219 @@
+/*--------------------------------------------------------------
+>>>>>> CSSeco Styles(usualy overwrite bootsrap styles :))
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+	#  Imports
+	##  Fonts
+    ##  Bootstrap
+	#  CSSeco Variables
+	#  Overides(bs)
+	#  Helper Classes
+	#  CSSeco Styles
+	## Body
+	## Header
+	## Footer
+	## Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#  Imports 
+##  Fonts
+--------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
+@import url('../fonts/fonts.css');
+
+/*--------------------------------------------------------------
+#  Imports
+##  Bootstrap
+--------------------------------------------------------------*/
+//@import "../../vendor/bs4/scss/bootstrap";
+
+/*--------------------------------------------------------------
+#  CSSeco Variables
+--------------------------------------------------------------*/
+/* BreakPoint */
+$csseco_bp_1200	:    1200px	!default;
+/*--------------------------------------------------------------
+#  Overides(bs)
+--------------------------------------------------------------*/
+body {
+	direction: rtl;
+	font-family: 'Rubik', sans-serif;
+}
+
+/*--------------------------------------------------------------
+#  Helper Classes
+--------------------------------------------------------------*/
+.posrel {
+	position: relative!important;
+}
+
+.elem-hidden {
+	display: none!important;
+}
+
+/*--------------------------------------------------------------
+#  CSSeco Styles
+## Body
+--------------------------------------------------------------*/
+div#site-wrapper {
+
+/*--------------------------------------------------------------
+#  CSSeco Styles
+## Header
+--------------------------------------------------------------*/
+	header#header {
+		border-bottom: 4px solid #8e8e8e;
+	}
+
+/*--------------------------------------------------------------
+#  CSSeco Styles
+## Footer
+--------------------------------------------------------------*/
+	footer#footer {
+		background-color: #464646;
+  		box-shadow: 0 -7px 0 #efc11b;
+		color: #FFF;
+		font-family: 'DroidArabicKufi';
+		a {
+			color: #FFFFFF;
+		}
+		.topF {
+			padding: 26px 0;
+			h6 {
+				font-size: 14px;
+			}
+			p {
+				font-size: 14px;
+				padding-left: 20px;
+				padding-right: 0;
+				text-align: justify;
+			}
+		}
+		.middleF {
+	  		font-size: 14px;
+			padding-bottom: 26px;
+			.divider {
+				&::after {
+					background: #7f7f7f;
+					width: 1px;
+					content: "";
+					display: block;
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					left: 0px;
+					right: inherit;
+					min-height: 80px;
+				}
+			}
+		}
+		.bottomF {
+			background-color: #a4a4a4;
+			color: #5a5a5a;
+			padding: 11px 0;
+			ul {
+				list-style: none;
+				margin: 0;
+				padding-left: initial;
+				padding-right: 0;
+				text-align: left;
+				li {
+					border-left: 1px solid #464646;
+					border-right: none;
+					display: inline-block; 
+			  		font-size: 14px;
+					padding-left: 5px;
+					padding-right: 5px;
+					&:last-child {
+						border: medium none;
+					}
+					a {
+						color: #464646;
+					}
+				}
+			}
+		}
+	}
+	
+/*--------------------------------------------------------------
+#  CSSeco Styles
+## Content
+--------------------------------------------------------------*/
+	section#section1.congrats {
+		background-image: url(../imgs/thankYou/join_ty.jpg);
+		background-position: 50% bottom;
+		background-repeat: no-repeat;
+		border-bottom: 4px solid #8e8e8e;
+		font-family: 'DroidArabicKufi';
+		min-height: 418px;
+		h1 {
+			font-size: 30px;
+			font-weight: bold;
+			margin: 35px 0 0 0;
+		}
+		h2 {
+			color: #efc11b;
+	  		font-size: 20px;
+			font-weight: bold;
+  			margin: 5px 0 0 0;
+		}
+		.account {
+			margin: 100px 0 0 auto;
+			max-width: 450px;
+			text-align: center;
+			width: 100%;
+			p {
+				font-size: 16px;
+				margin: 0;
+				+ p {
+					font-weight: bold;
+				}
+			}
+			a {
+				color: #fff;
+				font-size: 18px;
+  				height: 50px;
+  				margin: 10px auto;
+				padding-top: 12px;
+				width: 260px;
+			}
+		}
+	}
+	section#section2.youGet {
+		font-family: 'DroidArabicKufi';
+		margin-top: 80px;
+		h3 {
+  			font-size: 25px;
+			font-weight: bold;
+			text-align: center;
+		}
+		ul {
+			list-style: none;
+			margin: 20px auto 10px;
+			max-width: 630px;
+			padding: 14px 5px;
+			text-align: center;
+	  		vertical-align: top;
+			@media screen and (min-width: $csseco_bp_1200) {
+				max-width: none;
+			}
+			li {
+				display: inline-block;
+				font-size: 16px;
+				margin-bottom: 25px;
+				max-width: 200px;
+				padding: 0 5px;
+				text-align: center;
+				vertical-align: top;
+  				width: 100%;
+				img {
+					margin-bottom: 15px;
+				}
+				p {
+					font-size: 14px;
+					a {}
+				}
+			}
+		}
+	}
+}
